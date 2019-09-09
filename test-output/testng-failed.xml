@@ -3,17 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.ActiTIME.Generics.BaseTest"/>
       <class name="com.ActiTIME.Test.VerifyBuildNoTest"/>
-      <class name="com.ActiTIME.Generics.ExcelData"/>
-      <class name="com.ActiTIME.Pages.ActiTIMEEnterTimeTrackerPage"/>
-      <class name="com.ActiTIME.Test.InvalidLoginTest"/>
-      <class name="com.ActiTIME.Generics.BasePage"/>
-      <class name="com.ActiTIME.Pages.ActiTIMELoginPage"/>
-      <class name="com.ActiTIME.Test.ValidLoginLogout"/>
-      <class name="com.ActiTIME.Generics.AutoConstants"/>
-      <class name="com.ActiTIME.Generics.GenericUtils"/>
-      <class name="com.ActiTIME.Test.VerifyVersionTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.ActiTIME.Test.VerifyBuildNoTest">
+        <methods>
+          <include name="VerifyBuildno"/>
+        </methods>
+      </class> <!-- com.ActiTIME.Test.VerifyBuildNoTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

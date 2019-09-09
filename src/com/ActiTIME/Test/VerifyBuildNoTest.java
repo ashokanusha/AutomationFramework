@@ -45,7 +45,6 @@ public class VerifyBuildNoTest extends BaseTest
     // click on help button
      ep.ClickonHelp();
      
-    
      try
      {
     	// click on about your actittime

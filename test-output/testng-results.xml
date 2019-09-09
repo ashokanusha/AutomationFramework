@@ -1,245 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Enter Time-Track]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[username   admin]]>
-    </line>
-    <line>
-      <![CDATA[password   wvyu]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
-      <![CDATA[_---------------------------]]>
-    </line>
-    <line>
-      <![CDATA[username   qsp]]>
-    </line>
-    <line>
-      <![CDATA[password   abnk]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
-      <![CDATA[_---------------------------]]>
-    </line>
-    <line>
-      <![CDATA[username   abc]]>
-    </line>
-    <line>
-      <![CDATA[password   damager]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
-      <![CDATA[_---------------------------]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
-      <![CDATA[version is not matching]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching = actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[popup is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Fail]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
-      <![CDATA[Build No is not matching]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="222582" started-at="2019-09-06T12:21:34Z" finished-at="2019-09-06T12:25:17Z">
+  <suite name="Default suite" duration-ms="40" started-at="2019-09-09T12:38:54Z" finished-at="2019-09-09T12:38:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="222582" started-at="2019-09-06T12:21:34Z" finished-at="2019-09-06T12:25:17Z">
-      <class name="com.ActiTIME.Test.InvalidLoginTest">
-        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.ActiTIME.Test.InvalidLoginTest@3834d63f]" name="Precondition" is-config="true" duration-ms="31936" started-at="2019-09-06T17:52:56Z" finished-at="2019-09-06T17:53:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Precondition -->
-        <test-method status="PASS" signature="InvalidLogin()[pri:2, instance:com.ActiTIME.Test.InvalidLoginTest@3834d63f]" name="InvalidLogin" duration-ms="13796" started-at="2019-09-06T17:53:28Z" finished-at="2019-09-06T17:53:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[username   admin]]>
-            </line>
-            <line>
-              <![CDATA[password   wvyu]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
-              <![CDATA[_---------------------------]]>
-            </line>
-            <line>
-              <![CDATA[username   qsp]]>
-            </line>
-            <line>
-              <![CDATA[password   abnk]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
-              <![CDATA[_---------------------------]]>
-            </line>
-            <line>
-              <![CDATA[username   abc]]>
-            </line>
-            <line>
-              <![CDATA[password   damager]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
-              <![CDATA[_---------------------------]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- InvalidLogin -->
-        <test-method status="PASS" signature="Postcondition(org.testng.ITestResult)[pri:0, instance:com.ActiTIME.Test.InvalidLoginTest@3834d63f]" name="Postcondition" is-config="true" duration-ms="3339" started-at="2019-09-06T17:53:41Z" finished-at="2019-09-06T17:53:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=InvalidLoginTest.InvalidLogin()[pri:2, instance:com.ActiTIME.Test.InvalidLoginTest@3834d63f] output=Title is matching = actiTIME - Login]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Postcondition -->
-      </class> <!-- com.ActiTIME.Test.InvalidLoginTest -->
-      <class name="com.ActiTIME.Test.ValidLoginLogout">
-        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.ActiTIME.Test.ValidLoginLogout@1ae369b7]" name="Precondition" is-config="true" duration-ms="42567" started-at="2019-09-06T17:51:34Z" finished-at="2019-09-06T17:52:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Precondition -->
-        <test-method status="PASS" signature="validLoginLogout()[pri:1, instance:com.ActiTIME.Test.ValidLoginLogout@1ae369b7]" name="validLoginLogout" duration-ms="37805" started-at="2019-09-06T17:52:17Z" finished-at="2019-09-06T17:52:55Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Enter Time-Track]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validLoginLogout -->
-        <test-method status="PASS" signature="Postcondition(org.testng.ITestResult)[pri:0, instance:com.ActiTIME.Test.ValidLoginLogout@1ae369b7]" name="Postcondition" is-config="true" duration-ms="1144" started-at="2019-09-06T17:52:55Z" finished-at="2019-09-06T17:52:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validLoginLogout status=SUCCESS method=ValidLoginLogout.validLoginLogout()[pri:1, instance:com.ActiTIME.Test.ValidLoginLogout@1ae369b7] output=Title is matching = actiTIME - Login]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Postcondition -->
-      </class> <!-- com.ActiTIME.Test.ValidLoginLogout -->
+    <test name="Default test" duration-ms="40" started-at="2019-09-09T12:38:54Z" finished-at="2019-09-09T12:38:54Z">
       <class name="com.ActiTIME.Test.VerifyBuildNoTest">
-        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.ActiTIME.Test.VerifyBuildNoTest@17d99928]" name="Precondition" is-config="true" duration-ms="23464" started-at="2019-09-06T17:54:15Z" finished-at="2019-09-06T17:54:39Z">
+        <test-method status="FAIL" signature="Precondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTIME.Test.VerifyBuildNoTest@5474c6c]" name="Precondition" is-config="true" duration-ms="0" started-at="2019-09-09T18:08:54Z" finished-at="2019-09-09T18:08:54Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'nodeurl' is required by @Configuration on method Precondition but has not been marked @Optional or defined
+in C:\Users\Anusha\AppData\Local\Temp\testng-eclipse--2049828738\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'nodeurl' is required by @Configuration on method Precondition but has not been marked @Optional or defined
+in C:\Users\Anusha\AppData\Local\Temp\testng-eclipse--2049828738\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Precondition -->
-        <test-method status="PASS" signature="VerifyBuildno()[pri:4, instance:com.ActiTIME.Test.VerifyBuildNoTest@17d99928]" name="VerifyBuildno" duration-ms="33484" started-at="2019-09-06T17:54:39Z" finished-at="2019-09-06T17:55:12Z">
+        <test-method status="SKIP" signature="VerifyBuildno()[pri:4, instance:com.ActiTIME.Test.VerifyBuildNoTest@5474c6c]" name="VerifyBuildno" duration-ms="8" started-at="2019-09-09T18:08:54Z" finished-at="2019-09-09T18:08:54Z">
           <reporter-output>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[popup is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Fail]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
-              <![CDATA[Build No is not matching]]>
-            </line>
           </reporter-output>
         </test-method> <!-- VerifyBuildno -->
-        <test-method status="PASS" signature="Postcondition(org.testng.ITestResult)[pri:0, instance:com.ActiTIME.Test.VerifyBuildNoTest@17d99928]" name="Postcondition" is-config="true" duration-ms="4560" started-at="2019-09-06T17:55:12Z" finished-at="2019-09-06T17:55:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyBuildno status=SUCCESS method=VerifyBuildNoTest.VerifyBuildno()[pri:4, instance:com.ActiTIME.Test.VerifyBuildNoTest@17d99928] output=Title is matching = actiTIME - Login]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="Postcondition(org.testng.ITestResult)[pri:0, instance:com.ActiTIME.Test.VerifyBuildNoTest@5474c6c]" name="Postcondition" is-config="true" duration-ms="0" started-at="2019-09-09T18:08:54Z" finished-at="2019-09-09T18:08:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Postcondition -->
       </class> <!-- com.ActiTIME.Test.VerifyBuildNoTest -->
-      <class name="com.ActiTIME.Test.VerifyVersionTest">
-        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.ActiTIME.Test.VerifyVersionTest@6fffcba5]" name="Precondition" is-config="true" duration-ms="29395" started-at="2019-09-06T17:53:45Z" finished-at="2019-09-06T17:54:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Precondition -->
-        <test-method status="PASS" signature="VerifyVersion()[pri:3, instance:com.ActiTIME.Test.VerifyVersionTest@6fffcba5]" name="VerifyVersion" duration-ms="418" started-at="2019-09-06T17:54:14Z" finished-at="2019-09-06T17:54:15Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Title is matching = actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
-              <![CDATA[version is not matching]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyVersion -->
-        <test-method status="PASS" signature="Postcondition(org.testng.ITestResult)[pri:0, instance:com.ActiTIME.Test.VerifyVersionTest@6fffcba5]" name="Postcondition" is-config="true" duration-ms="635" started-at="2019-09-06T17:54:15Z" finished-at="2019-09-06T17:54:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyVersion status=SUCCESS method=VerifyVersionTest.VerifyVersion()[pri:3, instance:com.ActiTIME.Test.VerifyVersionTest@6fffcba5] output=Title is matching = actiTIME - Login]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Postcondition -->
-      </class> <!-- com.ActiTIME.Test.VerifyVersionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

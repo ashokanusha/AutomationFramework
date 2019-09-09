@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="none">
-  <test name="Test">
+<suite name="Suite" parallel="tests">
+  <test name="chromeTest">
+  <parameter name="nodeurl" value="http://localhost:4444/wd/hub"/>
+  <parameter name="browser" value="chrome"/>
+    <packages>
+      <package name="com.ActiTIME.Test"/>
+    </packages>
+  </test>
+  <test name="firefoxTest">
+  <parameter name="nodeurl" value="http://localhost:4444/wd/hub"/>
+  <parameter name="browser" value="firefox"/>
     <packages>
       <package name="com.ActiTIME.Test"/>
     </packages>
   </test> <!-- Test -->
+   <!-- Test -->
 </suite> <!-- Suite -->
